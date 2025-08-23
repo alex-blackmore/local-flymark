@@ -16,10 +16,10 @@ join the docker container (into a tmux session)
 
 when inside, to mark run
 ```
-flymark scheme.climark cs1521 25T2
+./mark.sh
 ```
 
-to escape probably run ctrl+C or something
+to get out of container run `^C^D`
 
 clean up docker container
 ```
