@@ -1,5 +1,5 @@
 #!/bin/dash
-if $(which docker 2>/dev/null 2>&1); then
+if which docker >/dev/null 2>&1; then
     OCI=docker
 else
     OCI=podman
