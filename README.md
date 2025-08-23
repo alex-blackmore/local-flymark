@@ -19,7 +19,7 @@ when inside, to mark run
 flymark scheme.climark cs1521 25T2
 ```
 
-to escape probably run ctrl+C or something \
+to escape probably run ctrl+C or something
 
 clean up docker container
 ```
