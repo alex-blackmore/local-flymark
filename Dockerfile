@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM debian:stable-slim
 
 RUN apt update
 RUN apt install -y curl build-essential pkg-config libssl-dev git tmux
