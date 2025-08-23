@@ -5,5 +5,4 @@ RUN apt install -y curl build-essential pkg-config libssl-dev git tmux
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 RUN /root/.cargo/bin/cargo install flymark
 
-RUN mkdir /marking
 WORKDIR /marking
