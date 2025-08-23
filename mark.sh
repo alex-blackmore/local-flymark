@@ -1,6 +1,6 @@
 #!/bin/dash
 
-! test -e /.dockerenv &&
+! test -e /.dockerenv -o -e /run/.containerenv &&
     echo 'error: run inside the container!' &&
     exit 1
 
