@@ -4,4 +4,4 @@
     echo 'error: run inside the container!' &&
     exit 1
 
-flymark scheme.climark cs1521 25T2
+flymark scheme.climark cs1521 25T3
