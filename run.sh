@@ -1,2 +1,8 @@
 #!/bin/dash
-docker exec -it local-flymark tmux new-session
+if which docker >/dev/null 2>&1; then
+    OCI=docker
+else
+    OCI=podman
+fi
+echo "Using $OCI"
+$OCI exec -it local-flymark tmux new-session
